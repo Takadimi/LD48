@@ -1,0 +1,68 @@
+GAME IDEAS AND SHIT:
+
+THEME - MINIMALISM
+
+Title - ???
+
+VOID
+
+Minimalism describes movements in various forms of art and design, especially visual art and 
+music, where the work is set out to expose the essence or identity of a subject through eliminating all non-essential 
+forms, features or concepts. Minimalism is any design or style in which the simplest and fewest elements are used to create the maximum effect.
+
+Black background, no ground tiles. Easy enough.
+Player sprite is a colored block. Even easier.
+
+Goal?
+
+"Eliminate all non-essential forms, features or concepts." That's a pretty good goal.
+
+Black screen filled with clusters of 16 x 16 blocks of color with associated numbers. The goal is to shave down the numbers from the highest number
+to zero in which the black screen replaces the 16 X 16 block.
+
+Need to figure out some kind of mechanic other than just gliding over the blocks that would be a fun way of eliminating the colored squares.
+
+Highest number is 10. Each number has an associated color.
+10 - Pink
+9 - Red
+8 - Orange
+7 - Yellow
+6 - Green 
+5 - Light Blue
+4 - Dark Blue
+3 - Purple
+2 - Brown
+1 - Gray
+0 - Black
+
+Maybe don't have a player figure. Make the game based on clicking. Make it some kind of number association game that requires some 
+minesweeper-esque problem solving.
+
+Left click builds up the stack. Ex: Left-clicking a 9 block will make it a 10 block.
+
+Right click, under certain conditions, takes down a stack. Ex: Right-clicking a 5 block makes it 4 block.
+
+Make it so you incentivize not having to left click. Left-clicking should be a last resource to taking the cluster of blocks down to nothing.
+Left clicking a block will then decrease your score by 10 points. *Arbitrary number that will probably be changed later after some testing*
+Right clicking a block will increase your score by 5 points. *Same deal*
+
+Goal is to rid the space of all color and achieve the highest score possible while doing so.
+
+Conditions for being able to take a block down a number:
+	The surrounding four blocks must be within 1 of the center block.
+	
+This requires the player to make choices about how they want to build up/break down the cluster of blocks.
+It will require a certain level of strategy to know how much you want to sacrifice your score for the ultimate
+pay off of taking down the cluster and getting points that way.
+
+Maybe increase your score by 10 points for every time you take it from 1 to 0.
+
+White/Creme background.
+
+Once the game is completed, regardless of the score, write the text "Purity achieved" to the black screen. Maybe have it animate or something.
+
+TileMap size is 25 wide and 18 tall.
+
+Potential post Ludum Dare change to gameplay: 
+1. Change the goal to be that every time you change the tiles to being in a cross-shape, an east-west line, or a north south line you fully eliminate those tiles and 
+get points according to a) the number on the tiles (Higher is better) and b) according to which shape you achieved (cross is most, lines are least).
